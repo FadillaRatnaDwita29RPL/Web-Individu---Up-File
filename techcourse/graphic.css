@@ -1,0 +1,173 @@
+body{
+    background-color: #240E63;
+    margin: 0;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.graphic-container{
+    margin-top: 0px;
+    padding: 0.1% 0; 
+    background: linear-gradient(to top, #0550CE, #240E63, #0A0849);
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.graphic-container h2{
+    text-align: center;
+    font-family: calibri;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.graphic-container h4{
+    text-align: center;
+    font-family: calibri;
+    font-weight: lighter;
+    color: white;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.graphic-container .graphic-box{
+    margin-right: 10px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.graphic-container .graphic-box .box {
+    width: 300px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 3px 3px 10px #6c757d;
+    align-items: center;
+    border-color: transparent;
+    margin-left: 35px;
+    margin-right: 40px;
+    border-radius: 15px;
+}
+
+.graphic-container .graphic-box .box .graphic .illus{
+    margin-left: 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    margin-right: 25px;
+}
+
+.graphic-container .graphic-box .box .graphic .text{
+    justify-content: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.graphic-container .graphic-box .box .graphic .text .star{
+    margin-left: 25px;
+    margin-top: 10px;
+    float: left;
+}
+
+.graphic-container .graphic-box .box .graphic .text p{
+    float: right;
+    margin-top: 20px;
+    font-family: calibri;
+    font-weight: lighter;
+    color: rgb(43, 43, 43);
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.graphic-container .graphic-box .box .graphic h3{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25px;
+    color: #0A0849;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-right: 20%;
+}
+
+.graphic-container .graphic-box .box .graphic h4{
+    font-family: calibri;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    color: rgb(43, 43, 43);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.graphic-container .graphic-box{
+    justify-content: flex;
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    width: 250px;
+    margin-top: 20px;
+}
+
+
+.graphic-container .graphic-box .box .graphic p{
+    font-family: calibri;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 25px;
+    color: #363636;
+    margin-bottom: 5px;
+    margin-top: 20px;   
+}
+
+.sosbar{
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.sosbar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #FFFFFF;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2);
+}
+
+.sosbar i{
+    color: #240E63;
+    font-size: 20px;
+}
+
+.sosbar a:hover{
+    background-color: #0A0849;
+    box-shadow:3px 3px 10px #6c757d ;
+    border-color: transparent;
+}
+
+.sosbar i:hover{
+    color: white;
+}
